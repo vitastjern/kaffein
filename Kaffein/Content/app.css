@@ -1,6 +1,7 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
     /* padding-top: 80px; */
+    position: relative;
 }
 
 .navbar {
@@ -36,12 +37,58 @@
     background-position: center;
 }
 
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i {
+    color: white; 
+}
+
 .content-filler {
     min-height: 350px;
 }
 
 .fixed-attachment {
     background-attachment: fixed;
+}
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+}
+
+.presentationsbild {
+        height: 120px;     
+}
+
+
+@media (max-width: 767px) {
+    .maskinheader {
+        visibility:hidden;
+    }
+}
+
+.maskinbild {
+    max-height:200px;
+    max-width: 200px;
+}
+
+h1, h2, h3, h4, h5
+.lorem {
+    color: rgb(64,0,0);
+    text-align: justify;
+}
+
+h1, h2 {
+    text-align: center;   
+}
+
+.lorem {    
+    padding: 40px;
 }
 
 header,
