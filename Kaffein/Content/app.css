@@ -12,10 +12,17 @@
     background-color: rgb(64,0,0);
 }
 
+.navbar-brand {
+    padding: 0px 15px;
+}
 
 
 .navbar-inverse .navbar-nav>li>a {
     color: #bbb;
+    /*background-color: rgb(64,0,0);*/ /*#924d4d;*/
+}
+
+.navactive {
     background-color: #924d4d;
 }
 
@@ -25,6 +32,7 @@
     height: 35%;
 }
     */
+
 
 .cbp-af-header-shrink {
     padding-top: 5px;
@@ -37,8 +45,23 @@
     background-position: center;
 }
 
-.down-button {
+title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+title-image {
     position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.down-button {
+    position: fixed; /*absolute;*/
     bottom: 40px;
     width: 100%;
     text-align: center;
