@@ -92,6 +92,12 @@ title-image {
 @media (max-width: 767px) {
     .maskinheader {
         visibility:hidden;
+        
+    }
+    .maskinheader h3 {
+        font-size:0px;
+        padding: 0px;
+        margin: 0px;
     }
 }
 
